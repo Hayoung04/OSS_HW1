@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>style1</title>
+
+    <style>
+      #header {
+        display: block;
+        background-color: #04aa6d;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 4px;
+        height: 52px;
+        line-height: 26px;
+        align-items: center;
+      }
+
+      #menuBar {
+        line-height: 26px;
+        background-color: #f1f1f1;
+        border: 1px solid #d4d4d4;
+        color: black;
+        width: 186.4px;
+        height: 26px;
+        border-radius: 4px;
+        margin-top: 4px;
+        margin-right: 18px;
+        padding: 2px;
+        cursor: pointer;
+      }
+
+      #menuBar:hover {
+        background-color: white;
+      }
+
+      /* #menuBar:focus {
+        background-color: #04aa6d;
+        color: white;
+        font-weight: bold;
+        outline: none;
+      } */
+
+      #menuBar a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #content {
+        width: 1039.2px;
+        margin: 0;
+        flex-shrink: 0;
+        padding-right: 40px;
+      }
+
+      #center {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      a {
+        color: black;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      #sideBar {
+        background-color: #32a4e7;
+        color: #ffffff;
+        padding: 10px;
+        width: 180px !important;
+        border-radius: 4px;
+        margin: 4px;
+        line-height: 26px;
+      }
+
+      #bottom {
+        border: 1px solid #d4d4d4;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        font-size: 70%;
+        line-height: 14px;
+        border-radius: 4px;
+        margin: 4px;
+      }
+    </style>
+  </head>
+  <body style="font: 100% Lucida Sans, Verdana; margin: 20px">
+    <div id="header">
+      <h1 style="margin: 0px; padding: 0px; line-height: 26px">
+        Welcome to 김하영's Homepage (22300209)
+      </h1>
+      <p style="margin: 0px; line-height: 26px">
+        Use the menu to select different Stylesheets
+      </p>
+    </div>
+
+    <div id="center">
+      <ul style="padding: 2px; margin: 0px">
+        <div
+          id="menuBar"
+          tabindex="0"
+          style="background-color: #04aa6d; color: white; font-weight: bold"
+        >
+          <a href="./style1.html">Stylesheet 1</a>
+        </div>
+        <div id="menuBar" tabindex="0">
+          <a href="./style2.html">Stylesheet 2</a>
+        </div>
+        <div id="menuBar" tabindex="0">Stylesheet 3</div>
+        <div id="menuBar" tabindex="0">Stylesheet 4</div>
+        <div id="menuBar" tabindex="0">
+          <a href="./index.html">No Stylesheet</a>
+        </div>
+      </ul>
+      <div id="content">
+        <h1>Same Page Different Stylesheets</h1>
+        <p id="content" style="line-height: 26px; color: black; padding: 0">
+          This is a demonstration of how different stylesheets can change the
+          layout of your HTML page. You can change the layout of this page by
+          selecting different stylesheets in the menu, or by selecting one of
+          the following links: <br /><a href="./style1.html">Stylesheet1</a>,
+          <a href="./style2.html">Stylesheet2</a>, Stylesheet3, Stylesheet4.
+        </p>
+        <h2>No Styles</h2>
+        <p style="line-height: 26px">
+          This page uses DIV elements to group different sections of the HTML
+          page. Click here to see how the page looks like with no stylesheet:
+          <br /><a href="./index.html">No Stylesheet.</a>
+        </p>
+      </div>
+
+      <div id="sideBar">
+        <h3>Side-Bar</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat.
+        </p>
+      </div>
+    </div>
+    <div id="bottom">
+      <p style="margin: 0; padding: 0">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+        molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+      </p>
+    </div>
+  </body>
+</html>
