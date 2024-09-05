@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      #navbar {
+        background-color: #212529;
+        height: 56px;
+        margin: 0;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      #text1 {
+        color: white;
+        margin: 0px 16px 0px 0px;
+        padding: 5px 0px;
+        font-size: 20px;
+      }
+
+      #text2 {
+        padding: 8px;
+        color: white;
+      }
+
+      #text3 {
+        padding: 8px;
+        color: #ffffff8c;
+      }
+
+      #text3:hover {
+        color: rgba(255, 255, 255, 0.75);
+      }
+
+      #text4 {
+        padding: 8px;
+        color: #6c757d;
+      }
+
+      #search {
+        width: 202.4px;
+        height: 37.6px;
+        border-radius: 0.375rem;
+        padding: 6px 12px;
+        margin: 0px 8px 0px 0px;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+      }
+
+      #one {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+      }
+
+      #searchBtn {
+        width: 73.43px;
+        height: 37.6px;
+        font-size: 16px;
+        color: #198754;
+        border: 1px solid #198754;
+        border-radius: 0.375rem;
+        background-color: transparent;
+      }
+
+      #searchBtn:hover {
+        background-color: #198754;
+        color: white;
+      }
+
+      #center {
+        width: 1296px;
+        height: 275.6px;
+        padding: 48px;
+        background-color: rgb(248, 249, 250);
+        align-items: center;
+        margin: auto;
+        margin-top: 76px;
+        border-radius: 0.375rem;
+      }
+
+      #title {
+        font-size: 2.5rem;
+        margin-bottom: 8px;
+      }
+
+      #content {
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 16px;
+      }
+
+      #Btn {
+        background-color: #0d6efd;
+        width: 211.06px;
+        height: 47.6px;
+        padding: 8px 16px 8px 16px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+      }
+
+      #Btn:hover {
+        background-color: #0b5ed7;
+      }
+    </style>
+  </head>
+  <body style="margin: 0px; overflow-x: hidden; min-height: 75rem">
+    <div id="navbar">
+      <div id="text1">Fixed navbar</div>
+      <div id="text2">Home</div>
+      <div id="text3">Link</div>
+      <div id="text4">Disabled</div>
+      <div id="one">
+        <input type="search" placeholder="Search" id="search" />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div id="center">
+      <div id="title">Navbar example</div>
+      <div id="content">
+        This example is a quick exercise to illustrate how fixed to top navbar
+        works. As you scroll, it will remain fixed to the top of your browser’s
+        viewport.
+      </div>
+      <div id="Btn">View navbar docs »</div>
+    </div>
+  </body>
+</html>
